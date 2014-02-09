@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Van Helleputte"
 date:   2014-02-10 00:35:00
 categories: minna portfolio
 ---
 
-Van Helleputte
+Van Helleputte Lorem ipsum
