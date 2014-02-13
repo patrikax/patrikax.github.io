@@ -14,7 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #ECFEA8;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', serif;
+  font: 13.34px;
   font-size: small;
   text-align: center;
 }
@@ -22,7 +23,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; font-size: 4em; line-height: 100%; }
+h1 { font-size: 3em; line-height: 100%; }
+h2 { font-size: 2em;}
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -40,7 +42,7 @@ a:visited { color: #a0a; }
 }
 
 .posts li {
-  line-height: 1.75em;
+  line-height: normal;
 }
 
 .posts span {
@@ -58,9 +60,9 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  max-width: 640px;
   margin: 3em auto 2em;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .header a {
@@ -70,7 +72,7 @@ a:visited { color: #a0a; }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   text-align: center;
   width: 100%;
 }
@@ -159,4 +161,19 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+/**********************************************************/
+/*
+/* Additions
+/*
+/**********************************************************/
+
+nav {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
 }

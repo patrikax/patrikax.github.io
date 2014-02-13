@@ -2,7 +2,8 @@
 layout: post
 title:  "Urax"
 date:   2014-02-10 00:58:00
-categories: minna portfolio
+label: "Identity design"
+categories: Identity design
 slideshow:
  - image: /images/01.jpg
  - image: /images/03.jpg
