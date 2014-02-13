@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Urax"
-date:   2014-02-10 00:58:00
 label: "Identity design"
-categories: Identity design
+date:   2014-02-10 00:58:00
 slideshow:
  - image: /images/01.jpg
  - image: /images/03.jpg
 ---
 
-Urax identity
+Urax identity with a shorter text describing stuff about the project and around it. Let's see how it will look with a longer text like this for example.

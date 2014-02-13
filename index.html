@@ -6,6 +6,7 @@ title: Minna Sakaria
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
+    <div class="post">
       <h2>{{ post.label }}<br>{{ post.title }}</h2>
         <div class="flexslider">
   		    <ul class="slides">
@@ -15,8 +16,10 @@ title: Minna Sakaria
   		      </li>
   		      {% endfor %}
   	    	</ul>
+          <div class="info-display">info</div>
+          <div class="info-box">{{ post.content }}</div>
     		</div>
-      <p>{{ post.content }}</p>
+    </div>
     {% endfor %}
   </ul>
 </div>

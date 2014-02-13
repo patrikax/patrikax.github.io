@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { font-size: 3em; line-height: 100%; }
-h2 { font-size: 2em;}
+h2 { font-size: 2em; margin-bottom: 0.25em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -39,6 +39,7 @@ a:visited { color: #a0a; }
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
+  display: inline-block;
 }
 
 .posts li {
@@ -138,10 +139,6 @@ a:visited { color: #a0a; }
   padding: 0 .4em;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -176,4 +173,12 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.slides img {
+  min-width: 100%;
+}
+
+.post {
+  margin-bottom: 12em;
 }

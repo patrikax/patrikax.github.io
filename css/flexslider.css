@@ -53,7 +53,7 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { margin: 0 0 60px; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1; }
+.flexslider { margin: 0 0 60px; position: relative; zoom: 1; }
 .flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
 .loading .flex-viewport { max-height: 300px; }
 .flexslider .slides { zoom: 1; }
@@ -61,14 +61,14 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a  { text-decoration:none; display: block; width: 40px; height: 40px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
-.flex-direction-nav .flex-prev { left: -50px; }
-.flex-direction-nav .flex-next { right: -50px; text-align: right; }
-.flexslider:hover .flex-prev { opacity: 0.7; left: 10px; }
-.flexslider:hover .flex-next { opacity: 0.7; right: 10px; }
+.flex-direction-nav a  { text-decoration:none;  background: white; text-align: center; display: block; width: 40px; height: 40px; margin: 0px 0 0; position: absolute; top: 45%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav .flex-prev { left: 0px; }
+.flex-direction-nav .flex-next { right: 0px; }
+.flexslider:hover .flex-prev { opacity: 0.7; left: 5px; }
+.flexslider:hover .flex-next { opacity: 0.7; right: 5px; }
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
 .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
-.flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 40px; display: inline-block; content: '\f001'; line-height: 40px; }
+.flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f001'; line-height: 40px; }
 .flex-direction-nav a.flex-next:before  { content: '\f002'; }
 
 /* Pause/Play */
@@ -78,9 +78,9 @@ html[xmlns] .slides {display: block;}
 .flex-pauseplay a.flex-play:before { content: '\f003'; }
 
 /* Control Nav */
-.flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
-.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
-.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: right; }
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline; text-align: center; }
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.3); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; }
 .flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
 .flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
 
@@ -94,3 +94,14 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
 }
+
+
+/*
+* Additions
+*/
+.flex-direction-nav {
+	overflow: hidden;
+}
+
+.info-display {width: 100%; position: absolute; bottom: -40px; text-align: left; }
+.info-box {width: 100%; position: absolute; bottom: 10px; left: 10px; text-align: left; background: white; z-index: 20; padding: 10px; line-height: 1em; }
