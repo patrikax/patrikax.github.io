@@ -5,7 +5,7 @@ date:   2014-02-10 00:35:00
 categories: minna portfolio
 slideshow:
  - image: /images/03.jpg
- - image: /images/04.jpg
+ - image: /images/01.jpg
 ---
 
 Van Helleputte Lorem ipsum

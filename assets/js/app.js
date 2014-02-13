@@ -1,6 +1,9 @@
 // Initialise FlexSlider for Carousels
 $(window).load(function() {
   $('.flexslider').flexslider({
-    animation: "slide"
+    animation: "fade",
+    slideshow: false,
+    touch: true,
+    smoothHeight: false
   });
 });
