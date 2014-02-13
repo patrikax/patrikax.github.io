@@ -27,8 +27,8 @@ h1 { font-size: 3em; line-height: 100%; }
 h2 { font-size: 2em; margin-bottom: 0.25em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
+a         { color: #000; }
+a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #a0a; }
 
 /*****************************************************************************/
