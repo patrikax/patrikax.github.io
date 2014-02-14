@@ -7,18 +7,24 @@ title: Minna Sakaria
   <ul class="posts">
     {% for post in site.posts %}
     <div class="post">
-      <h2>{{ post.label }}<br>{{ post.title }}</h2>
-        <div class="flexslider">
-  		    <ul class="slides">
-  	    	  {% for slides in post.slideshow %}
-  		      <li>
-  		        <img src="{{ slides.image }}">
-  		      </li>
-  		      {% endfor %}
-  	    	</ul>
-          <div class="info-display"><a href="#">info</a></div>
-          <div class="info-box">{{ post.content }}</div>
-    		</div>
+      <div class="post-header">
+        <div class="post-title">
+          <h2>{{ post.label }}<br>{{ post.title }}</h2>
+        </div>
+          <div class="post-info">
+            <a class="info-link" href="#">info</a>
+          </div>
+      </div>
+      <div class="flexslider">
+		    <ul class="slides">
+	    	  {% for slides in post.slideshow %}
+		      <li>
+		        <img src="{{ slides.image }}">
+		      </li>
+		      {% endfor %}
+	    	</ul>
+        <div class="info-box">{{ post.content }}</div>
+  		</div>
     </div>
     {% endfor %}
   </ul>

@@ -6,4 +6,10 @@ $(window).load(function() {
     touch: true,
     smoothHeight: false
   });
+
+  $('.info-link').click(function(){
+  	event.preventDefault();
+    $(this).closest('.post').find('.info-box').toggle();
+  });
+
 });

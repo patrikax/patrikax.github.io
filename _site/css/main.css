@@ -27,7 +27,7 @@ h1 { font-size: 3em; line-height: 100%; }
 h2 { font-size: 2em; margin-bottom: 0.25em; }
 p { margin: 1em 0; }
 
-a         { color: #000; }
+a         { color: #000; cursor: pointer; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #a0a; }
 
@@ -182,3 +182,36 @@ nav {
 .post {
   margin-bottom: 12em;
 }
+
+.post-header {
+  width: 100%;
+}
+
+.post-title {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 87%;
+}
+
+.post-info {
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: right;
+  width: 12%;
+}
+
+.info-box {
+  width: 100%;
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  text-align: left; 
+  background: white; 
+  z-index: 20; 
+  padding: 10px; 
+  line-height: 1em;
+  display: none;
+}
+
+
+
