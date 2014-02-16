@@ -14,22 +14,22 @@ html, body { height: 100%; }
 
 body {
   background-color: #ECFEA8;
-  font-family: 'Vollkorn', serif;
-  font: 13.34px;
-  font-size: small;
+  font-family: 'Judson', serif;
+  font-size: 12px;
   text-align: center;
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { font-size: 3em; line-height: 100%; }
-h2 { font-size: 2em; margin-bottom: 0.25em; }
-p { margin: 1em 0; }
+h2 { font-size: 2.5em; margin-bottom: 0.25em; }
+p { margin: 1em 0; font-weight: normal; }
 
 a         { color: #000; cursor: pointer; }
 a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #a0a; }
+a:visited { color: #000; }
 
 /*****************************************************************************/
 /*
@@ -61,38 +61,26 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  max-width: 1080px;
+  max-width: 800px;
   margin: 3em auto 2em;
   padding: 0 1em;
   line-height: 2em;
 }
 
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
 
 .title {
   display: inline-block;
   margin-bottom: 1em;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 .title a {
   color: #000;
+  text-decoration: none;
 }
 
 .title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
   color: #000;
 }
 
@@ -169,11 +157,26 @@ a:visited { color: #a0a; }
 /**********************************************************/
 
 nav {
-  text-align: center;
+  text-align: right;
   display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
+  font-size: 2.5em;
+  line-height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  position: relative;
 }
 
 .slides img {
@@ -191,18 +194,37 @@ nav {
 .post-title {
   display: inline-block;
   vertical-align: bottom;
-  width: 87%;
+  width: 90%;
+  padding: 0;
+  margin: 0;
 }
 
+/**
 .post-info {
   display: inline-block;
   vertical-align: bottom;
   text-align: right;
-  width: 12%;
+  width: 9%;
+  padding: 0;
+  margin: 0;
+}
+**/
+
+.post-info {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.post-info a {
+  text-decoration: none;
+}
+
+.post-info a:hover {
+  text-decoration: underline;
 }
 
 .info-box {
-  width: 100%;
+  width: 65%;
   position: absolute;
   top: 10px; 
   left: 10px; 
@@ -214,5 +236,21 @@ nav {
   display: none;
 }
 
+.info-box p {
+  width: 90%;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  line-height: 100%;
+  text-align: left;
+}
 
+
+@media screen and (max-width: 640px) {
+  
+body {
+  font-size: 8px;
+}
+
+  
+}
 

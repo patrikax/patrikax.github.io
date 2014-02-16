@@ -2,6 +2,7 @@
 $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "fade",
+    animationSpeed: 0,
     slideshow: false,
     touch: true,
     smoothHeight: false
