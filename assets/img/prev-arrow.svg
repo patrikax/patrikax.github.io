@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>Slice 1</title>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Untitled 6</title>
     <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Pil_160214" sketch:type="MSLayerGroup" transform="translate(-60.000000, -63.000000)">
-            <g id="Layer_2" transform="translate(56.000000, 63.000000)"></g>
-            <g id="Layer_1"></g>
-        </g>
-        <g id="Rectangle-+-Shape-copy" sketch:type="MSLayerGroup">
-            <rect id="Rectangle" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="27.8962727" height="27.8962727"></rect>
-            <path d="M23.9107273,13.9210909 L13.0887273,22.1193636 L13.0880909,15.3669091 L3.98554545,15.3669091 L3.98554545,12.4733636 L13.0887273,12.4733636 L13.0893636,5.72090909 L23.9107273,13.9210909 L23.9107273,13.9210909 Z" id="Shape-copy" fill="#000000" sketch:type="MSShapeGroup" transform="translate(13.849182, 13.993636) scale(-1, 1) translate(-13.849182, -13.993636) "></path>
+        <g id="30pixlar" sketch:type="MSLayerGroup">
+            <rect id="Rectangle" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="30" height="30"></rect>
+            <path d="M24.349,14.964 L14.194,21.623 L14.194,16.139 L5.651,16.139 L5.651,13.788 L14.193,13.788 L14.193,8.303 L24.349,14.964 L24.349,14.964 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup" transform="translate(15.151000, 14.803000) scale(-1, 1) translate(-15.151000, -14.803000) "></path>
         </g>
     </g>
 </svg>

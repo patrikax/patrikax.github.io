@@ -61,7 +61,7 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a  { text-decoration:none;  background: white; text-align: center; display: block; line-height: 100%; width: 28px; height: 28px; margin: 0px 0 0; position: absolute; top: 45%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); }
+.flex-direction-nav a  { text-decoration:none;  background: white; text-align: center; display: block; line-height: 100%; width: 30px; height: 30px; margin: 0px 0 0; position: absolute; top: 45%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); }
 .flex-direction-nav .flex-prev { left: 0px; }
 .flex-direction-nav .flex-next { right: 0px; }
 .flexslider:hover .flex-prev { opacity: 0.7; left: 10px; }
