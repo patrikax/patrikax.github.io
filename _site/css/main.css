@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #ECFEA8;
-  font-family: 'Judson', serif;
+  font-family: "Grot10 SemiBold", Arial, sans-serif; font-weight:600; font-style:normal;;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
