@@ -105,8 +105,7 @@ html[xmlns] .slides {display: block;}
 
 @media screen and (max-width: 600px) {
   	
-	.flexslider:hover .flex-prev, .flexslider:hover .flex-next { opacity: 0; }
-	.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 0; }
+	.flex-next, .flex-prev { visibility: hidden; }
 
 	.slides {
   		margin-left: -1em;
