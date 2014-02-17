@@ -23,7 +23,12 @@ title: Minna Sakaria
 		      </li>
 		      {% endfor %}
 	    	</ul>
-        <div class="info-box">{{ post.content }}</div>
+        <div class="info-box">
+            <div class="info">
+              {{ post.content }}
+            </div>
+            <div class="close-button"></div>
+        </div>
   		</div>
     </div>
     {% endfor %}

@@ -13,4 +13,9 @@ $(window).load(function() {
     $(this).closest('.post').find('.info-box').toggle();
   });
 
+   $('.close-button').click(function(){
+    event.preventDefault();
+    $(this).closest('.post').find('.info-box').hide();
+  });
+
 });
