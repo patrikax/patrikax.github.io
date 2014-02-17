@@ -4,7 +4,7 @@ $(window).load(function() {
   if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
     $('.flexslider').flexslider({
       animation: "slide",
-      animationSpeed: 50,
+      animationSpeed: 100,
       slideshow: false,
       touch: true,
       smoothHeight: false

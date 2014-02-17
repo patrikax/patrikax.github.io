@@ -261,6 +261,11 @@ body {
   font-size: 6px;
 }
 
+.footer {
+  font-size: 2em;
+  line-height: 140%;
+}
+
 
 }
 
