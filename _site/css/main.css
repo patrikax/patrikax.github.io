@@ -13,8 +13,10 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #ECFEA8;
-  font-family: "Grot10 SemiBold", Arial, sans-serif; font-weight:600; font-style:normal;;
+  background-color: #F1FDA7;
+  font-family: "superclarendon", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 12px;
   text-align: center;
   font-weight: bold;
@@ -23,13 +25,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { font-size: 3em; line-height: 100%; }
-h2 { font-size: 2.5em; margin-bottom: 0.25em; line-height: 100%; }
+h1 { font-size: 2.75em; line-height: 120%;}
+h2 { font-size: 2em; margin-bottom: 0.25em; line-height: 120%; }
 p { margin: 1em 0; font-weight: normal; }
 
-a         { color: #000; cursor: pointer; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #000; }
+a         { color: #000; cursor: pointer; text-decoration: underline; }
+a:hover   { color: #0E27F2; text-decoration: underline; }
+a:visited { }
 
 /*****************************************************************************/
 /*
@@ -62,9 +64,9 @@ a:visited { color: #000; }
   font-size: 115%;
   text-align: justify;
   max-width: 800px;
-  margin: 3em auto 2em;
+  margin: 4.25em auto 2em;
   padding: 0 1em;
-  line-height: 2em;
+  line-height: 120%;
 }
 
 
@@ -89,11 +91,10 @@ a:visited { color: #000; }
 }
 
 .footer {
-  font-size: 80%;
-  color: #000;
-  border-top: 3px solid #000;
+  font-size: 1.5em;
   margin-top: 2em;
   overflow: hidden;
+  line-height: 120%;
 }
 
 .footer .contact {
@@ -152,17 +153,17 @@ a:visited { color: #000; }
 /**********************************************************/
 
 nav {
-  text-align: right;
+  text-align: left;
   display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 2.5em;
-  line-height: 100%;
+  font-size: 2em;
+  line-height: 120%;
 }
 
 nav a {
-  text-decoration: none;
+
 }
 
 nav ul{
@@ -172,7 +173,7 @@ nav ul{
 header {
   width: 100%;
   position: relative;
-  margin-bottom: 12em;
+  margin-bottom: 9em;
 }
 
 .slides img {
@@ -180,11 +181,13 @@ header {
 }
 
 .post {
-  margin-bottom: 12em;
+  margin-bottom: 7em;
 }
 
 .post-header {
   width: 100%;
+  position: relative;
+  margin-bottom: 1em;
 }
 
 .post-title {
@@ -207,12 +210,11 @@ header {
 **/
 
 .post-info {
-  font-size: 2.5em;
   margin-bottom: 0.5em;
 }
 
 .post-info a {
-  text-decoration: none;
+  font-size: 2em;
 }
 
 .post-info a:hover {
@@ -220,36 +222,35 @@ header {
 }
 
 .info-box {
-  width: 65%;
+  width: 80%;
   position: absolute;
-  top: 10px; 
-  left: 10px; 
+  top: 72px; 
+  left: 5%; 
   text-align: left; 
   background: white; 
   z-index: 20; 
-  padding: 10px; 
-  line-height: 1em;
+  padding: 36px;
+  font-size: 1.5em;
   display: none;
 }
 
 .info-box p {
-  width: 90%;
-  font-size: 1.3em;
   line-height: 100%;
+  font-family: Arial;
+  font-weight: bold;
   text-align: left;
   margin: 0;
 }
 
 .close-button {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  content: url('/assets/img/close.svg');
+  top: 10px;
+  right: 10px;
   cursor: pointer;
 }
 
 .close-button:hover {
-  opacity: 0.5;
+  color: #0E27F2;
 }
 
 @media screen and (max-width: 640px) {

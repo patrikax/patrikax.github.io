@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>Untitled 6</title>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Untitled</title>
     <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="30pixlar" sketch:type="MSLayerGroup">
-            <rect id="Rectangle" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="30" height="30"></rect>
-            <path d="M24.349,14.964 L14.194,21.623 L14.194,16.139 L5.651,16.139 L5.651,13.788 L14.193,13.788 L14.193,8.303 L24.349,14.964 L24.349,14.964 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+        <g id="next-arrow" sketch:type="MSLayerGroup">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="30pixlar">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="46" height="46"></rect>
+                    <path d="M37.3351333,22.9448 L21.7641333,33.1552667 L21.7641333,24.7464667 L8.66486667,24.7464667 L8.66486667,21.1416 L21.7626,21.1416 L21.7626,12.7312667 L37.3351333,22.9448 L37.3351333,22.9448 Z" id="Shape" fill="#000000"></path>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

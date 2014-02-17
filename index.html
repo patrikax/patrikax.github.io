@@ -9,11 +9,17 @@ title: Minna Sakaria
     <div class="post">
       <div class="post-header">
         <div class="post-title">
-          <h2>{{ post.label }}<br>{{ post.title }}</h2>
+          <h2>{{ post.title | upcase }}</h2>
         </div>
-          <div class="post-info">
-            <a class="info-link" href="#">info</a>
+        <div class="post-info">
+          <a class="info-link" href="#">info</a>
+          <div class="info-box">
+            <div class="info">
+              {{ post.content }}
+            </div>
+            <div class="close-button">X</div>
           </div>
+        </div>
       </div>
       <div class="flexslider">
 		    <ul class="slides">
@@ -23,12 +29,6 @@ title: Minna Sakaria
 		      </li>
 		      {% endfor %}
 	    	</ul>
-        <div class="info-box">
-            <div class="info">
-              {{ post.content }}
-            </div>
-            <div class="close-button"></div>
-        </div>
   		</div>
     </div>
     {% endfor %}

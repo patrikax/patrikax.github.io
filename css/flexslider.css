@@ -61,12 +61,13 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a  { text-decoration:none;  background: white; text-align: center; display: block; line-height: 100%; width: 30px; height: 30px; margin: 0px 0 0; position: absolute; top: 45%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); }
+.flex-direction-nav a  { text-decoration:none;  background: white; text-align: center; display: block; line-height: 100%; width: 46px; height: 46px; margin: 0px 0 0; position: absolute; top: 45%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); }
 .flex-direction-nav .flex-prev { left: 0px; }
 .flex-direction-nav .flex-next { right: 0px; }
-.flexslider:hover .flex-prev { opacity: 0.7; left: 10px; }
-.flexslider:hover .flex-next { opacity: 0.7; right: 10px; }
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flexslider:hover .flex-prev { opacity: 1; }
+.flexslider:hover .flex-next { opacity: 1; }
+.flexslider:hover .flex-next:hover { box-shadow: -3px 3px 10px #0E27F2; }
+.flexslider:hover .flex-prev:hover { box-shadow: 3px 3px 10px #0E27F2; }
 .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
 
 .flex-direction-nav a:before  { display: inline-block; content: url('/assets/img/prev-arrow.svg'); }
@@ -83,10 +84,10 @@ html[xmlns] .slides {display: block;}
 
 /* Control Nav */
 .flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: right; }
-.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline; text-align: center; }
+.flex-control-nav li { margin-left: 6px; display: inline-block; zoom: 1; *display: inline; text-align: center; }
 
 .flex-control-paging li a {width: 10px; height: 25px; display: block; cursor: pointer; text-indent: -9999px; content: url('/assets/img/inactive.svg'); }
-.flex-control-paging li a:hover { content: url('/assets/img/active.svg'); opacity: 0.5; }
+.flex-control-paging li a:hover { content: url('/assets/img/pag-hover.svg'); }
 .flex-control-paging li a.flex-active { content: url('/assets/img/active.svg'); cursor: default; }
 .flex-control-paging li a.flex-active:hover { opacity: 1; }
 

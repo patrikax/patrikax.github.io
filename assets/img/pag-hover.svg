@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="25px" viewBox="0 0 10 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="pag-hover" sketch:type="MSLayerGroup" transform="translate(0.000000, 3.000000)" fill="#0E27F2">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="pag-hover">
+                    <g id="Page-1">
+                        <g id="Prickar+utropstecken">
+                            <path d="M0.427,18.444 C0.427,16.606 1.678,15.355 3.399,15.355 C4.883,15.355 5.901,16.45 5.901,18.013 C5.901,19.968 4.454,21.102 2.929,21.102 C1.521,21.103 0.427,19.969 0.427,18.444 L0.427,18.444 L0.427,18.444 Z M4.648,13.167 L3.202,13.167 L2.693,3.472 C2.576,1.009 3.593,0.032 6.486,0.032 L6.525,0.032 C9.339,0.032 10.043,0.97 8.949,3.433 L4.648,13.167 L4.648,13.167 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
