@@ -109,8 +109,13 @@ html[xmlns] .slides {display: block;}
 	.flex-next, .flex-prev { visibility: hidden; }
 
 	.slides {
-  		margin-left: -1em;
-  		margin-right: -1em;
+  		margin-left: -2.5em;
+  		margin-right: -2.5em;
+	}
+
+	.flex-control-nav {
+		bottom: -30px;
+		right: -5px;
 	}
 
 }
