@@ -103,9 +103,13 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
 
-@media screen and (max-width: 400px) {
-  .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
-  .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+@media screen and (max-width: 600px) {
+  	
+	.slides {
+  		margin-left: -1em;
+  		margin-right: -1em;
+	}
+
 }
 
 
@@ -114,8 +118,7 @@ html[xmlns] .slides {display: block;}
 */
 .flex-direction-nav {
 	overflow: hidden;
-}
-
+}  
 
 
 
