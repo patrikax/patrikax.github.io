@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Critical Thinking"
+label: "Identity design"
+date:   2015-01-18 00:00:00
+slideshow:
+ - image: /images/crit/crit_01.jpg
+ - image: /images/crit/crit_02.jpg
+ - image: /images/crit/crit_03.jpg
+---
+
+Socrates method for critical thinking interpreted and explained visually. Screen printed on 100 x 300 cm blueback paper.

@@ -1,4 +1,6 @@
 // Initialise FlexSlider for Carousels
+
+
 $(window).load(function() {
 
   
@@ -26,6 +28,8 @@ $(window).load(function() {
     });
   }
 
+
+
   $('.info-link').click(function(){
   	event.preventDefault();
     $(this).closest('.post').find('.info-box').toggle();
@@ -37,3 +41,5 @@ $(window).load(function() {
   });
 
 });
+
+

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "A Pen Can Build Faster Than a Hammer"
+label: "Identity design"
+date:   2015-01-20 00:00:00
+slideshow:
+ - image: /images/apc/apc_01.jpg
+ - image: /images/apc/apc_02.jpg
+ - image: /images/apc/apc_03.jpg
+---
+
+Identity for exhibition “A Pen Can Build Faster Than a Hammer”. Ill-informed event at the Royal College of Art in 2014. Graphic design and type with Carolina Dahl. 

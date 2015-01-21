@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "WIP Identity 2015"
+label: "Identity design"
+date:   2015-01-21 00:00:00
+slideshow:
+ - image: /images/wip/wip_01.jpg
+ - image: /images/wip/wip_02.jpg
+ - image: /images/wip/wip_03.jpg
+ - image: /images/wip/wip_04.jpg
+ - image: /images/wip/wip_05.jpg
+ - image: /images/wip/wip_06.jpg
+ - image: /images/wip/wip_07.jpg
+ - image: /images/wip/wip_08.jpg
+ - image: /images/wip/wip_09.jpg
+---
+
+Graphic identity for the School of Communication Work in Progress exhibition 2015. The identity typeface is based on modules, which are arrangeable into letter shapes. There are pre-designed combinations of modules to construct each letter, and also endless possibilities to create alternative letterforms. The modules allows the user to construct letters as she or he prefers. Printed as stickers the modules can be used in a “guerilla” way, for example to interrupt the corporate identity of the Royal College of Art to communicate the student voice. Featured on [It’s Nice That 2015](http://www.itsnicethat.com:8080/articles/soc-wip). Identity and typography in collaboration with Carolina Dahl and Maria Ines Gul.

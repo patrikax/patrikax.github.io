@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "F.A.Q. Konstfack School paper"
+label: "Editorial design"
+date:   2015-01-17 00:00:00
+slideshow:
+ - image: /images/faq/faq_01.jpg
+ - image: /images/faq/faq_02.jpg
+ - image: /images/faq/faq_03.jpg
+ - image: /images/faq/faq_04.jpg
+ - image: /images/faq/faq_05.jpg
+ - image: /images/faq/faq_06.jpg
+ - image: /images/faq/faq_07.jpg
+---
+
+Initiative, editorial work, production and publication by GDI bachelors Konstfack 2012. Theme of the issue: "Collective processes". Exhibited at 26th International Biennial of Graphic Design, Brno, CZ.

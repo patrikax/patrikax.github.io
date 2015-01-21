@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "A Picture is Worth a Thousand Words"
+label: "Book design"
+date:   2015-01-16 00:00:00
+slideshow:
+ - image: /images/1001/1001_01.jpg
+ - image: /images/1001/1001_02.jpg
+ - image: /images/1001/1001_03.jpg
+ - image: /images/1001/1001_04.jpg
+ - image: /images/1001/1001_05.jpg
+---
+
+10 posters and a folder.
+
+"A Picture is worth a Thousand Words", literary interpreted, seems to consist of two factors; math and poetry, which are also two recurrent elements in my process.
+
+Ten expressions of math and poetry. The original prints are letterpress, woodcut and stamp prints. Postproduction in Indesign.
