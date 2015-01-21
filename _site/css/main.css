@@ -174,7 +174,7 @@ nav ul{
 header {
   width: 100%;
   position: relative;
-  margin-bottom: 4em;
+  margin-bottom: 12em;
 }
 
 .slides img {
@@ -256,6 +256,10 @@ header {
 
 .close-button:hover {
   color: #0E27F2;
+}
+
+.subheading {
+  font-size: 2em;
 }
 
 
