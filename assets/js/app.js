@@ -38,7 +38,7 @@ $(window).load(function() {
     $(this).closest('.post').find('.info-box').hide();
   });
 
-  $("body").fadeIn(2000);
+  $("body").fadeIn(500);
 
 });
 
