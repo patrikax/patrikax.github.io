@@ -173,7 +173,7 @@ nav ul{
 }
 
 header {
-  width: 100%;
+  max-width: 100%;
   position: relative;
   margin-bottom: 12em;
 }
@@ -262,6 +262,7 @@ header {
 .subheading {
   font-size: 2em;
   line-height: 120%;
+  max-width: 50%;
 }
 
 

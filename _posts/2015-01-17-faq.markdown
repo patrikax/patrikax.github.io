@@ -13,4 +13,4 @@ slideshow:
  - image: /images/faq/faq_07.jpg
 ---
 
-Initiative, editorial work, production and publication by GDI bachelors Konstfack 2012. Theme of the issue: "Collective processes". Exhibited at 26th International Biennial of Graphic Design, Brno, CZ.
+Editing, design and publication in collaboration with GDI bachelor students at Konstfack 2012. Theme of the issue: "Collective processes". Nominated for [Best Swedish Graphic Design (Student category) 2013](https://kolla.se/2013/tavla/nominerade/?sid=317&nominerade=1) and exhibited at 26th International Biennial of Graphic Design, Brno, CZ.
