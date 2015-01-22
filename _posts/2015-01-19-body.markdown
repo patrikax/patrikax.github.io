@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Bodytype"
+label: "Identity design"
+date:   2015-01-19 00:00:00
+slideshow:
+ - image: /images/body/1_Bodytype.jpg
+ - image: /images/body/2_Bodytype.jpg
+ - image: /images/body/3_Bodytype.jpg
+ - image: /images/body/4_Bodytype.jpg
+---
+
+Hand drawn typeface and research: “Hand–To–Type, The Human Hand Interfering With Typography”.
